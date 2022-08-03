@@ -1,7 +1,10 @@
 package org.ibm.marconi007;
 
+import org.testng.annotations.Test;
+
 public class GitPush001 {
-	public static void main(String[] args) {
+	@Test
+	public void gitTry001() {
 		System.out.println("git oush to global");
 	}
 
